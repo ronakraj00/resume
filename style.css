@@ -1,0 +1,68 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.3em;
+    border: 2px solid orange;
+    height: auto;
+    width: 625px;
+    margin-left: 500px;
+}
+.resume{
+    height: auto;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* *{
+    border: 1px solid black;
+    text-align: center;
+} */
+header{
+    text-align: center;
+}
+h1,h3{
+    margin: 0px;
+}
+h3{
+    color: gray;
+}
+h2,.education{
+    text-align: center;
+}
+
+.education{
+    display: flex;
+
+}
+.skill{
+    display: flex;
+    justify-content:space-around;
+}
+.side1,.school{
+    margin-left: 80px;
+}
+.side2,.college{
+    margin-right: 80px;
+}
+.nav{
+    text-align: center;
+}
+a{
+    font-weight: bold;
+    font-family:cursive;
+    color: grey;
+    text-decoration: none;  
+}
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.school{
+    margin-right: 40px;
+}
+.college{
+    margin-left: 40px;
+}
