@@ -1,21 +1,22 @@
 body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
     background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display:flex;
     justify-content: center;
-    align-content: center;
+
     font-size: 1.3em;
-    border: 2px solid orange;
+   
     height: auto;
-    width: 625px;
-    margin-left: 500px;
+
 }
 .resume{
     height: auto;
     width: 600px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    border: 2px solid orange;
+    padding: 8px;
 }
 /* *{
     border: 1px solid black;
